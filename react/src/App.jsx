@@ -10,6 +10,8 @@ import Hook from './page/Hook'
 import State from './Hooks/State'
 import Effect from './Hooks/Effect'
 import Effect2 from './Hooks/Effect2'
+import Ref from './Hooks/Ref'
+import Reducer from './Hooks/Reducer'
 import {Routes,Route} from 'react-router-dom'
 const App = () => {
   var fruits = ["Apple","Orange","Mango","Guava"];
@@ -37,6 +39,8 @@ const App = () => {
         <Route path='/effect' element={<Effect />}/>
         <Route path='/effect2' element={<Effect2 />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/ref' element={<Ref />}/>
+        <Route path='/reducer' element={<Reducer />}/>
       </Routes>
     </div>
   )
