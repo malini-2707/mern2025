@@ -5,7 +5,7 @@ const cors = require('cors')
 const router = require('./routers/egRouters');
 const todoRouter =require('./routers/todoRouters')
 dotenv.config();
-
+// const app = express();
 const app = express();
 app.use(cors())
 const PORT = process.env.PORT;
